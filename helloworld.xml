@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+
+<project name="HelloWorld" default="world">
+
+<target name="Hello">
+<echo>Hello !</echo>
+</target>
+
+<target name="world" depends="Hello">
+<echo> World!</echo>
+</target>
+
+</project>
